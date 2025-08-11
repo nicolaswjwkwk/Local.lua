@@ -7,7 +7,7 @@ local Camera = workspace.CurrentCamera
 local LocalPlayer = Players.LocalPlayer
 
 -- Carrega Rayfield UI
-local Rayfield = loadstring(game:HttpGet("https://raw.githubusercontent.com/shlexware/Rayfield/main/source"))()
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 -- Variáveis globais para desenhos e highlights
 local Drawings = {ESP = {}, Skeleton = {}}
