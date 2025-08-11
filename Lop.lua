@@ -250,18 +250,7 @@ local function UpdateESP(player)
     -- Pega a cor (você pode modificar essa função)
     local color = GetPlayerColor(player)
 
-    -- ============================
---[[
-  ESP System (sem todas as funções e variáveis relacionadas a Box)
-  - Tracer
-  - Healthbar
-  - Name/Distance info
-  - Snapline
-  - Chams (Highlight)
-  - Skeleton
-  - Proper cleanup and disable logic
-]]
-
+    -- ================
 Drawings = Drawings or {ESP = {}, Skeleton = {}}
 Highlights = Highlights or {}
 
