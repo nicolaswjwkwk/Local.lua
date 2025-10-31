@@ -1,2 +1,0 @@
-# Local.lua
-Chama.tag
